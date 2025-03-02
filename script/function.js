@@ -30,7 +30,7 @@ document.getElementById("task-1").addEventListener("click",
                 alert("Board Updated Sucessfully")
                 const taskNumebr = document.getElementById("complete-task").innerText;
                 if (taskNumebr == 29) {
-                        alert("congrates You have congleted all the current task")
+                        alert("congrates You have completed all the current task")
                 }
 
 
@@ -67,7 +67,7 @@ document.getElementById("task-2").addEventListener("click",
                 alert("Board Updated Sucessfully")
                 const taskNumebr = document.getElementById("complete-task").innerText;
                 if (taskNumebr == 29) {
-                        alert("congrates You have congleted all the current task")
+                        alert("congrates You have completed all the current task")
                 }
 
 
@@ -102,7 +102,7 @@ document.getElementById("task-3").addEventListener("click",
                 alert("Board Updated Sucessfully")
                 const taskNumebr = document.getElementById("complete-task").innerText;
                 if (taskNumebr == 29) {
-                        alert("congrates You have congleted all the current task")
+                        alert("congrates You have completed all the current task")
                 }
 
 
@@ -136,7 +136,7 @@ document.getElementById("task-4").addEventListener("click",
                 alert("Board Updated Sucessfully")
                 const taskNumebr = document.getElementById("complete-task").innerText;
                 if (taskNumebr == 29) {
-                        alert("congrates You have congleted all the current task")
+                        alert("congrates You have completed all the current task")
                 }
 
 
@@ -172,7 +172,7 @@ document.getElementById("task-5").addEventListener("click",
                 alert("Board Updated Sucessfully")
                 const taskNumebr = document.getElementById("complete-task").innerText;
                 if (taskNumebr == 29) {
-                        alert("congrates You have congleted all the current task")
+                        alert("congrates You have completed all the current task")
                 }
 
 
@@ -208,7 +208,7 @@ document.getElementById("task-6").addEventListener("click",
 
                 const taskNumebr = document.getElementById("complete-task").innerText;
                 if(taskNumebr == 29){
-                        alert("congrates You have congleted all the current task")
+                        alert("congrates You have completed all the current task")
                 }
 
                 const container = document.getElementById("activity-log");
