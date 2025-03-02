@@ -1,5 +1,13 @@
 
+// for date 
 
+let dateTime = new Date();
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+let today = dateTime.toLocaleDateString("en-us", options);
+
+const date = document.getElementById("date-today").innerText = today;
+
+// time
 let now = new Date();
 let hours = now.getHours();
 let minutes = now.getMinutes();
@@ -13,10 +21,6 @@ document.getElementById("task-1").addEventListener("click",
                 const taskInnerText = getInputVlauebyID("task-assign-number");
                 const competetask = getInputVlauebyID("complete-task");
                 const headline = document.getElementById("headlin-1").innerText;
-
-
-
-
 
                 const sum1 = taskInnerText - 1;
                 document.getElementById("task-assign-number").innerText = sum1;
@@ -35,8 +39,8 @@ document.getElementById("task-1").addEventListener("click",
                 container.style.paddingBottom = "25px";
                 container.style.borderRadius = "10px";
 
-                
-
+               this.disabled= true;
+                this.style.backgroundColor = "gray";
 
         }
 )
