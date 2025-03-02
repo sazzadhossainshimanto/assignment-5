@@ -7,7 +7,7 @@
         <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-[#F4F7FF] h-full text-[#00303C] pb-10">
+<body id="colourID" class="bg-[#F4F7FF] h-full text-[#00303C] pb-10">
       <header class="flex justify-center">
         <nav class="flex justify-between w-4/5 bg-white p-4 rounded-2xl mt-6 mb-6">
                 <div class="flex  justify-center items-center gap-2">
@@ -19,7 +19,7 @@
                                 <img src="./assets/checkbox.png" alt="checkbox">
                                 <h1 id="complete-task" class="font-bold text-2xl text-[#1E1E1E]">23</h1>
                         </div>
-                        <div class="bg-[#F4F7FF] p-3 rounded-full cursor-pointer">
+                        <div id="colorButton" class="bg-[#F4F7FF] p-3 rounded-full cursor-pointer">
                                 <img src="./assets/theme-btn.png" alt="">
                         </div>
                 </div>
@@ -81,7 +81,7 @@
                                                
                                                         <button class="bg-white p-2 rounded-xl text-base font-normal cursor-pointer mb-4 text-[#00303C]">CloudSync</button>
                                                
-                                                <h1 class="font-medium text-2xl text-[#00303C] mb-4">Add Dark Mode</h1>
+                                                <h1 class="font-medium text-2xl text-[#00303C] mb-4" id="headlin-2">Add Dark Mode</h1>
                                                 <div class="bg-white p-4  rounded-xl" >
                                                         <p class="text-base text-[#00000080] font-normal line-clamp-2">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
                                                 </div>
@@ -91,14 +91,14 @@
                                                                 <p class="font-normal text-sm">Deadline</p>
                                                                 <h1 class=" font-medium text-base">21 March 2025</h1>
                                                         </div>
-                                                        <button class="bg-[#3752FD] cursor-pointer text-white p-2 rounded-xl">Completed</button>
+                                                        <button id="task-2" class="bg-[#3752FD] cursor-pointer text-white p-2 rounded-xl">Completed</button>
                                                 </div>
                                         </div>
                                         <div class="w-80 h-80 bg-[#F4F7FF] p-6 rounded-2xl">
                                                
                                                         <button class="bg-white cursor-pointer p-2 rounded-xl text-base font-normal mb-4 text-[#00303C]">SwiftPay</button>
                                                
-                                                <h1 class="font-medium text-2xl text-[#00303C] mb-4">Optimize Home page </h1>
+                                                <h1 class="font-medium text-2xl text-[#00303C] mb-4" id="headlin-3">Optimize Home page </h1>
                                                 <div class="bg-white p-4  rounded-xl" >
                                                         <p class="text-base text-[#00000080] font-normal line-clamp-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly</p>
                                                 </div>
@@ -108,14 +108,14 @@
                                                                 <p class="font-normal text-sm">Deadline</p>
                                                                 <h1 class=" font-medium text-base">21 March 2025</h1>
                                                         </div>
-                                                        <button class="bg-[#3752FD] cursor-pointer text-white p-2 rounded-xl">Completed</button>
+                                                        <button class="bg-[#3752FD] cursor-pointer text-white p-2 rounded-xl" id="task-3">Completed</button>
                                                 </div>
                                         </div>
                                         <div class="w-80 h-80 bg-[#F4F7FF] p-6 rounded-2xl">
                                                
                                                         <button class="bg-white cursor-pointer p-2 rounded-xl text-base font-normal mb-4 text-[#00303C]">Meta</button>
                                                
-                                                <h1 class="font-medium text-2xl text-[#00303C] mb-4">Add new emoji 🤲</h1>
+                                                <h1 class="font-medium text-2xl text-[#00303C] mb-4" id="headlin-4">Add new emoji 🤲</h1>
                                                 <div class="bg-white p-4  rounded-xl" >
                                                         <p class="text-base text-[#00000080] font-normal line-clamp-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                                                         and ensure onClick works properly</p>
@@ -126,14 +126,14 @@
                                                                 <p class="font-normal text-sm">Deadline</p>
                                                                 <h1 class=" font-medium text-base">21 March 2025</h1>
                                                         </div>
-                                                        <button class="bg-[#3752FD] cursor-pointer text-white p-2 rounded-xl">Completed</button>
+                                                        <button class="bg-[#3752FD] cursor-pointer text-white p-2 rounded-xl" id="task-4">Completed</button>
                                                 </div>
                                         </div>
                                         <div class="w-80 h-80 bg-[#F4F7FF] p-6 rounded-2xl">
                                                
                                                         <button class="bg-white cursor-pointer p-2 rounded-xl text-base font-normal mb-4 text-[#00303C]">Google LLC</button>
                                                
-                                                <h1 class="font-medium text-2xl text-[#00303C] mb-4">Integrate OpenAI API</h1>
+                                                <h1 class="font-medium text-2xl text-[#00303C] mb-4" id="headlin-5">Integrate OpenAI API</h1>
                                                 <div class="bg-white p-4  rounded-xl" >
                                                         <p class="text-base text-[#00000080] font-normal line-clamp-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                                                         and ensure onClick works properly</p>
@@ -144,14 +144,14 @@
                                                                 <p class="font-normal text-sm">Deadline</p>
                                                                 <h1 class=" font-medium text-base">21 March 2025</h1>
                                                         </div>
-                                                        <button class="bg-[#3752FD] cursor-pointer text-white p-2 rounded-xl">Completed</button>
+                                                        <button class="bg-[#3752FD] cursor-pointer text-white p-2 rounded-xl" id="task-5">Completed</button>
                                                 </div>
                                         </div>
                                         <div class="w-80 h-80 bg-[#F4F7FF] p-6 rounded-2xl">
                                                
                                                         <button class="bg-white p-2 cursor-pointer rounded-xl text-base font-normal mb-4 text-[#00303C]">Glassdoar</button>
                                                
-                                                <h1 class="font-medium text-2xl text-[#00303C] mb-4">Improve Job searching</h1>
+                                                <h1 class="font-medium text-2xl text-[#00303C] mb-4" id="headlin-6">Improve Job searching</h1>
                                                 <div class="bg-white p-4  rounded-xl" >
                                                         <p class="text-base text-[#00000080] font-normal line-clamp-2">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                                                         and ensure onClick works properly</p>
@@ -162,7 +162,7 @@
                                                                 <p class="font-normal text-sm">Deadline</p>
                                                                 <h1 class=" font-medium text-base">21 March 2025</h1>
                                                         </div>
-                                                        <button class="bg-[#3752FD] cursor-pointer text-white p-2 rounded-xl">Completed</button>
+                                                        <button class="bg-[#3752FD] cursor-pointer text-white p-2 rounded-xl" id="task-6">Completed</button>
                                                 </div>
                                         </div>
                                 </div>
@@ -178,7 +178,7 @@
                                                 <img src="./assets/activity.png" alt="">
                                                 <h1 class="font-bold text-base">Activity Log</h1>
                                         </div>
-                                <button class="bg-[#3752FD] text-white cursor-pointer p-2 rounded-xl mt-4 mb-3">Clear History
+                                <button id="clear-history" class="bg-[#3752FD] text-white cursor-pointer p-2 rounded-xl mt-4 mb-3">Clear History
 
                                 </button>
                                         <hr class="border-t border-dashed border-gray-300 my-4">
